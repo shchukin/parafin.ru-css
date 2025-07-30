@@ -3,7 +3,7 @@
 }
     .live-search__field {
         position: relative;
-        max-width: 380px;
+        max-width: 480px;
         display: flex;
         align-items: center;
         gap: 12px;
