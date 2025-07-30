@@ -4,8 +4,10 @@
     .live-search__field {
         position: relative;
         max-width: 380px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
     }
-
         .live-search__icon {
             position: absolute;
             z-index: 10;
@@ -45,6 +47,10 @@
         .live-search__widget:focus-visible {
             border-color: var(--theme-more-color);
             box-shadow: 0 0 0 1px var(--theme-more-color);
+        }
+
+        .live-search__handler {
+
         }
 
 
